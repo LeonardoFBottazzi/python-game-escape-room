@@ -1,0 +1,25 @@
+{
+    "0": {
+        "name": "Prigione",
+        "description": "",
+        "color": "white"
+    },
+
+    "1": {
+        "name": "Giardino",
+        "description": "",
+        "color": "green"
+    },
+    
+    "2": {
+        "name": "Cantina",
+        "description": "",
+        "color": "black"
+    },
+
+    "3": {
+        "name": "Prigione",
+        "description": "",
+        "color": "white"
+    }
+}

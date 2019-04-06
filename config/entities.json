@@ -1,0 +1,202 @@
+{
+    "S": {
+        "name": "serratura",
+        "color": "red",
+        "description": "devi aprirla per liberare yoshi",
+        "interactions":  {
+            "no-item": {
+                "message": "non si apre"
+            },
+            "K": {
+                "message": "l'hai aperta!",
+                "transform": " "
+            },
+            "C": {
+                "message": "serve una chiave"
+            }
+        }
+    },
+    "Y": {
+        "name": "yoshi",
+        "description": "e' yoshi, il tuo amico, lo hai salvato",
+        "color": "green",
+        "interactions": {
+            "no-item": {
+                "message": "yoshi da ora in poi ti seguirà",
+                "transform": " ",
+                "win": "HAI SALVATO YOSHI!"
+            }
+        }
+    },
+    "V": {
+        "name": "vaso",
+        "description": "è un vaso",
+        "color": "green",
+        "interactions": {
+            "no-item": {
+                "message": "Hai trovato una combinazione",
+                "transform": "C"
+            }
+        }
+    },
+    "C": {
+        "name": "combinazione",
+        "description": "chissà per cosa bisogna usarla...",
+        "color": "yellow",
+        "interactions": {
+            "no-item": {
+                "message": "ora conosci una combinazione",
+                "pickup": true,
+                "transform": " "
+            }
+        }
+    },
+    "1": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 1
+            }
+        }
+    },
+    "2": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 2
+            }
+        }
+    },
+    "3": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 3
+            }
+        }
+    },
+    "0": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 0
+            }
+        }
+    },
+    "Q": {
+        "name": "quadro",
+        "description": "e' proprio un bel quadro",
+        "color": "cyan",
+        "interactions": {
+            "no-item": {
+                "message": "non c'è niente, teniamolo per sicurezza",
+                "transform": " ",
+                "pickup": true
+            }
+        }
+    },
+
+    "B": {
+        "name": "botola",
+        "description": "e' una botola",
+        "color": "yellow",
+        "interactions": {
+            "no-item": {
+                "message": "porta in un'altra stanza",
+                "transform": "2"
+            }
+        }
+    },
+
+    "M": {
+        "name": "monitor",
+        "description": "bisogna digitare una combinazione",
+        "color": "magenta",
+        "interactions": {
+            "no-item": {
+                "message": "non funziona"
+            },
+            "C": {
+                "message": "il monitor si sposta e trovi una chiave",
+                "transform": "K"
+            }
+        }
+    },
+
+    "K": {
+        "name": "chiave",
+        "description": "bisogna digitare una combinazione",
+        "color": "red",
+        "interactions": {
+            "no-item": {
+                "message": "prendi la chiave",
+                "transform": " ",
+                "pickup": true
+            }
+        }
+    },
+
+    "F": {
+        "name": "finestra",
+        "description": "è una finestra socchiusa. Prova ad aprirla completamente",
+        "color": "cyan",
+        "interactions": {
+            "no-item": {
+                "message": "hai aperto la finestra e puoi vedere Yoshi: vuole darti una cosa...",
+                "transform": "L"
+            }
+        }
+    },
+
+    "W": {
+        "name": "wall",
+        "description": "Un muro INDISTRUTTIBILE",
+        "color": "black",
+        "interactions": {
+            "no-item": {
+                "message": "non succede nulla"
+            }
+        }
+    },
+
+    "L": {
+        "name": "lama",
+        "description": "Yoshi ti ha messo una lama sulla finestra",
+        "color": "red",
+        "interactions": {
+            "no-item": {
+                "message": "hai preso la lama... sembra molto tagliente",
+                "pickup": true,
+                "transform": "W"
+            }
+        }
+    },
+    "G": {
+        "name": "guardia",
+        "description": "E' una guardia e inquiete paura",
+        "color": "red",
+        "interactions": {
+            "no-item": {
+                "message": "Ormai e' troppo tardi....",
+                "game_over": "HAI PERSO"
+            },
+            "L": {
+                "message": "Hai ucciso la guardia",
+                "transform": " "
+            }
+        }
+    }
+}
+
