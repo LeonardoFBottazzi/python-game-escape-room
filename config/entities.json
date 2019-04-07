@@ -178,11 +178,11 @@
         "interactions": {
             "no-item": {
                 "message": "hai preso la lama... sembra molto tagliente",
-                "pickup": true,
-                "transform": "W"
+                "pickup": true
             }
         }
     },
+
     "G": {
         "name": "guardia",
         "description": "E' una guardia e inquiete paura",
